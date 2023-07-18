@@ -3,7 +3,7 @@ version: '3.8'
 services:
   api:
     container_name: codechat_api
-    image: codechat/api:local
+    image: codechat/api:latest
     restart: unless-stopped
     ports:
       - 8083:8083
