@@ -10,7 +10,7 @@ services:
     volumes:
       - ./instances:/codechat/instances
       # - ./src/env.yml:/codechat/src/env.yml
-      - ./src:/codechat/src
+      # - ./src:/codechat/src
     # command: ['node', './src/main.js']
     command: ['node', './dist/src/main.js']
     # networks:
