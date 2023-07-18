@@ -9,7 +9,8 @@ services:
       - 8083:8083
     volumes:
       - ./instances:/codechat/instances
-      - ./src/env.yml:/codechat/src/env.yml
+      # - ./src/env.yml:/codechat/src/env.yml
+      - ./src:/codechat/src
     # command: ['node', './src/main.js']
     command: ['node', './dist/src/main.js']
     # networks:
